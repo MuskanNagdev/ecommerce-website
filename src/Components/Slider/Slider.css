@@ -1,0 +1,22 @@
+/* Add this CSS in your stylesheet or within a <style> tag */
+.carousel-indicators {
+    bottom: 10px; /* Adjust the distance from the bottom as needed */
+}
+
+.carousel-indicators li {
+    width: 10px; /* Adjust the indicator width */
+    height: 10px; /* Adjust the indicator height */
+    border-radius: 50%; /* Make the indicators circular */
+    background-color: rgba(255, 255, 255, 0.5); /* Adjust the color and opacity */
+    border: none; /* Remove any indicator border */
+    margin: 0 3px; /* Adjust the spacing between indicators */
+}
+
+.carousel-indicators .active {
+    background-color: white; /* Adjust the active indicator color */
+}
+
+/* Add this CSS to ensure proper touch responsiveness */
+.carousel-inner {
+    touch-action: pan-y; /* Allow vertical panning for touch */
+}
