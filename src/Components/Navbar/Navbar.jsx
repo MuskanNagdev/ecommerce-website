@@ -12,7 +12,7 @@ function CustomNavbar() {
     <>
     <Navbar expand="lg" className="body-tertiary" style={{height:'4rem', backgroundColor:'white', color:'white'}}>
       <Container fluid style={{background:'white'}}>
-        <Navbar.Brand href="#" style={{fontWeight:'bolder', fontSize:'3rem', fontFamily: "'Mulish', sans-serif", color:'blue', marginLeft:'2rem' }}> <i><u> Style Attire </u></i></Navbar.Brand>
+        <Navbar.Brand href="#" style={{fontWeight:'bolder', fontSize:'3rem', fontFamily: "'Mulish', sans-serif", color:'black', marginLeft:'2rem', marginTop:'0.5rem' }}>  S A P P H I R E </Navbar.Brand>
         
         
           <Nav

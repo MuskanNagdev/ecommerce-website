@@ -8,7 +8,7 @@ import {
 } from 'mdb-react-ui-kit';
 import './CardComponent.css'; // Import your CSS file
 
-function CardComponent() {
+function Women() {
   return (
     <>
     <div className="card-row">
@@ -234,4 +234,4 @@ function CardComponent() {
   );
 }
 
-export default CardComponent;
+export default Women;
