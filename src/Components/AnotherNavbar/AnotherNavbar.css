@@ -1,0 +1,20 @@
+/* CustomNavbar.css */
+/* Other styles */
+
+/* Style for NavDropdown items when hovering */
+.navbar-nav .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; /* Optional adjustment */
+  }
+  
+  /* Optional: Adjust the dropdown menu width */
+  .dropdown-menu {
+    width: auto;
+  }
+  
+  /* Optional: Style for dropdown items when hovering */
+  .navbar-nav .nav-item.dropdown .dropdown-menu a:hover {
+    background-color: #f0f0f0; /* Change this to your desired background color */
+    color: #333; /* Change this to your desired text color */
+  }
+  
