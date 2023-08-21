@@ -5,7 +5,8 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import './AnotherNavbar.css'
 import NavDropdown from 'react-bootstrap/NavDropdown';
-
+import { NavLink, Link} from 'react-router-dom';
+import Women from '../Women/Women';
 
 function AnotherNavbar() {
   return (
@@ -23,35 +24,35 @@ function AnotherNavbar() {
            
             {/* <Nav.Link href="#action2">Link</Nav.Link> */}
             <NavDropdown title="New in" id="navbarScrollingDropdown" style={{ fontSize:'1.2rem'}}>
-              <NavDropdown.Item href="#action3">Women</NavDropdown.Item>
-              <NavDropdown.Item href="#action4">
-                Men
+              <NavDropdown.Item><NavLink to ="/Women" className='custom-navlink'>Women</NavLink></NavDropdown.Item>
+              <NavDropdown.Item >
+              <NavLink to ="/Shirts" className='custom-navlink'>Men</NavLink>
               </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#action5">
-                Ready to Wear
+              <NavDropdown.Item >
+              <NavLink to ="/Women" className='custom-navlink'>Ready to Wear</NavLink>
               </NavDropdown.Item>
             </NavDropdown>
 
             <NavDropdown title="Women" id="navbarScrollingDropdown" style={{fontSize:'1.2rem'}}>
-              <NavDropdown.Item href="#action3">Ready to Wear</NavDropdown.Item>
-              <NavDropdown.Item href="#action4">
-                Unstitched
+              <NavDropdown.Item ><NavLink to ="/Women" className='custom-navlink'>Ready to Wear</NavLink></NavDropdown.Item>
+              <NavDropdown.Item>
+              <NavLink to ="/Unstitched" className='custom-navlink'>Unstitched</NavLink>
               </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#action5">
-                Western
+              <NavDropdown.Item >
+              <NavLink to ="/Western" className='custom-navlink'>Western</NavLink>
               </NavDropdown.Item>
             </NavDropdown>
 
             <NavDropdown title="Men" id="navbarScrollingDropdown" style={{fontSize:'1.2rem'}}>
-              <NavDropdown.Item href="#action3">Shalwar Kameez</NavDropdown.Item>
-              <NavDropdown.Item href="#action4">
-                Kurta
+              <NavDropdown.Item ><NavLink to ="/ShalwarKameez" className='custom-navlink'>Shalwar Kameez</NavLink></NavDropdown.Item>
+              <NavDropdown.Item >
+              <NavLink to ="/Kurta" className='custom-navlink'>Kurta</NavLink>
               </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#action5">
-                Shirts/T-shirts
+              <NavDropdown.Item >
+              <NavLink to ="/Shirts" className='custom-navlink'>Shirts / T-Shirts</NavLink>
               </NavDropdown.Item>
             </NavDropdown>
 

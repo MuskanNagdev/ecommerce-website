@@ -7,9 +7,9 @@ import {
   MDBBtn
 } from 'mdb-react-ui-kit';
 // import './CardComponent.css'; // Import your CSS file
-import './Women.css'
+import './Shirts.css'
 import kid1 from '../../Images/kid1.png'
-function Women() {
+function Shirts() {
   return (
     <>
     <div className="card-row">
@@ -235,4 +235,4 @@ function Women() {
   );
 }
 
-export default Women;
+export default Shirts;

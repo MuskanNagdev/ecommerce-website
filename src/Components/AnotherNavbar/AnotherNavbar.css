@@ -18,3 +18,15 @@
     color: #333; /* Change this to your desired text color */
   }
   
+  .custom-navlink {
+    /* Remove link styling */
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+  
+    /* Add desired text styling */
+    font-weight: normal;
+    font-style: normal;
+    /* Other styling properties */
+  }
+  
